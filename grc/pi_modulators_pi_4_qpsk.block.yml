@@ -1,0 +1,15 @@
+id: pi_modulators_pi_4_qpsk
+label: pi 4 qpsk
+category: '[Pi_modulators]'
+templates:
+  imports: import pi_modulators
+  make: pi_modulators.pi_4_qpsk()
+inputs:
+- label: in
+  domain: stream
+  dtype: byte
+outputs:
+- label: out
+  domain: stream
+  dtype: complex
+file_format: 1

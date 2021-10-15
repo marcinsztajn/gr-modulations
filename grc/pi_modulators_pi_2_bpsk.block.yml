@@ -1,0 +1,15 @@
+id: pi_modulators_pi_2_bpsk
+label: pi 2 bpsk
+category: '[Pi_modulators]'
+templates:
+  imports: import pi_modulators
+  make: pi_modulators.pi_2_bpsk()
+inputs:
+- label: in
+  domain: stream
+  dtype: byte
+outputs:
+- label: out
+  domain: stream
+  dtype: complex
+file_format: 1
